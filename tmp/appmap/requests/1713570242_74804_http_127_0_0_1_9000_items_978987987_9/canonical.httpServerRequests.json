@@ -1,0 +1,7 @@
+[
+  {
+    "route": "DELETE /items/{item_id}/{quantity}",
+    "parameters": "(item_id,quantity)",
+    "status": 500
+  }
+]

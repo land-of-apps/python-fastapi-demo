@@ -1,0 +1,94 @@
+{
+  "events": [
+    {
+      "http_server_request": {
+        "request_method": "GET",
+        "protocol": "HTTP/1.1",
+        "path_info": "/items/345345",
+        "headers": {
+          "host": "127.0.0.1:9000",
+          "connection": "keep-alive",
+          "sec-ch-ua": "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\"",
+          "accept": "application/json",
+          "sec-ch-ua-mobile": "?0",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "sec-fetch-site": "same-origin",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-dest": "empty",
+          "referer": "http://127.0.0.1:9000/docs",
+          "accept-encoding": "gzip, deflate, br, zstd",
+          "accept-language": "en-US,en;q=0.9"
+        },
+        "normalized_path_info": "/items/{item_id}"
+      },
+      "message": [
+        {
+          "object_id": 4435261488,
+          "value": "'345345'",
+          "name": "item_id",
+          "class": "builtins.str"
+        }
+      ],
+      "id": 1,
+      "event": "call",
+      "thread_id": 23
+    },
+    {
+      "http_server_response": {
+        "status_code": 500,
+        "mime_type": "text/plain; charset=utf-8",
+        "headers": {
+          "content-length": "21",
+          "content-type": "text/plain; charset=utf-8"
+        }
+      },
+      "parent_id": 1,
+      "elapsed": 0.0012780079996446148,
+      "id": 2,
+      "event": "return",
+      "thread_id": 23
+    }
+  ],
+  "version": "1.9",
+  "metadata": {
+    "language": {
+      "name": "python",
+      "engine": "CPython",
+      "version": "3.11.7"
+    },
+    "client": {
+      "name": "appmap",
+      "url": "https://github.com/applandinc/appmap-python"
+    },
+    "git": {
+      "repository": "git@github.com:land-of-apps/python-fastapi-demo.git",
+      "branch": "main",
+      "commit": "2f7e7cf9a990f236888487f39c7ac27d86749903"
+    },
+    "frameworks": [
+      {
+        "name": "FastAPI",
+        "version": "0.104.0"
+      }
+    ],
+    "name": "GET /items/345345 (500) - 19:59:50.573",
+    "timestamp": 1713571190.57368,
+    "recorder": {
+      "name": "record_requests",
+      "type": "requests"
+    }
+  },
+  "classMap": [
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "GET /items/{item_id}"
+        }
+      ]
+    }
+  ]
+}

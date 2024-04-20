@@ -1,0 +1,7 @@
+[
+  {
+    "route": "GET /items/{item_id}",
+    "parameters": "(item_id)",
+    "status": 500
+  }
+]

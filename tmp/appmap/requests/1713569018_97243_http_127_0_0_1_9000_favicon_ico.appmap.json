@@ -1,0 +1,85 @@
+{
+  "events": [
+    {
+      "http_server_request": {
+        "request_method": "GET",
+        "protocol": "HTTP/1.1",
+        "path_info": "/favicon.ico",
+        "headers": {
+          "host": "127.0.0.1:9000",
+          "connection": "keep-alive",
+          "sec-ch-ua": "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\"",
+          "sec-ch-ua-mobile": "?0",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+          "sec-fetch-site": "same-origin",
+          "sec-fetch-mode": "no-cors",
+          "sec-fetch-dest": "image",
+          "referer": "http://127.0.0.1:9000/",
+          "accept-encoding": "gzip, deflate, br, zstd",
+          "accept-language": "en-US,en;q=0.9"
+        }
+      },
+      "id": 1,
+      "event": "call",
+      "thread_id": 2
+    },
+    {
+      "http_server_response": {
+        "status_code": 404,
+        "mime_type": "application/json",
+        "headers": {
+          "content-length": "22",
+          "content-type": "application/json"
+        }
+      },
+      "parent_id": 1,
+      "elapsed": 0.0029349209944484755,
+      "id": 2,
+      "event": "return",
+      "thread_id": 2
+    }
+  ],
+  "version": "1.9",
+  "metadata": {
+    "language": {
+      "name": "python",
+      "engine": "CPython",
+      "version": "3.11.7"
+    },
+    "client": {
+      "name": "appmap",
+      "url": "https://github.com/applandinc/appmap-python"
+    },
+    "git": {
+      "repository": "git@github.com:land-of-apps/python-fastapi-demo.git",
+      "branch": "main",
+      "commit": "2f7e7cf9a990f236888487f39c7ac27d86749903"
+    },
+    "frameworks": [
+      {
+        "name": "FastAPI",
+        "version": "0.104.0"
+      }
+    ],
+    "name": "GET /favicon.ico (404) - 19:23:38.972",
+    "timestamp": 1713569018.97243,
+    "recorder": {
+      "name": "record_requests",
+      "type": "requests"
+    }
+  },
+  "classMap": [
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "GET /favicon.ico"
+        }
+      ]
+    }
+  ]
+}

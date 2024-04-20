@@ -1,0 +1,28 @@
+{
+  "language": {
+    "name": "python",
+    "engine": "CPython",
+    "version": "3.11.7"
+  },
+  "client": {
+    "name": "appmap",
+    "url": "https://github.com/applandinc/appmap-python"
+  },
+  "git": {
+    "repository": "git@github.com:land-of-apps/python-fastapi-demo.git",
+    "branch": "main",
+    "commit": "2f7e7cf9a990f236888487f39c7ac27d86749903"
+  },
+  "frameworks": [
+    {
+      "name": "FastAPI",
+      "version": "0.104.0"
+    }
+  ],
+  "name": "DELETE /items/234234234234234234234234 (500) - 19:45:05.748",
+  "timestamp": 1713570305.748502,
+  "recorder": {
+    "name": "record_requests",
+    "type": "requests"
+  }
+}

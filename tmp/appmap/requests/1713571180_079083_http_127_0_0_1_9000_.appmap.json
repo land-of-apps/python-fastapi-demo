@@ -1,0 +1,86 @@
+{
+  "events": [
+    {
+      "http_server_request": {
+        "request_method": "GET",
+        "protocol": "HTTP/1.1",
+        "path_info": "/",
+        "headers": {
+          "host": "127.0.0.1:9000",
+          "connection": "keep-alive",
+          "sec-ch-ua": "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\"",
+          "accept": "application/json",
+          "sec-ch-ua-mobile": "?0",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "sec-fetch-site": "same-origin",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-dest": "empty",
+          "referer": "http://127.0.0.1:9000/docs",
+          "accept-encoding": "gzip, deflate, br, zstd",
+          "accept-language": "en-US,en;q=0.9"
+        },
+        "normalized_path_info": "/"
+      },
+      "id": 1,
+      "event": "call",
+      "thread_id": 22
+    },
+    {
+      "http_server_response": {
+        "status_code": 200,
+        "mime_type": "application/json",
+        "headers": {
+          "content-length": "96",
+          "content-type": "application/json"
+        }
+      },
+      "parent_id": 1,
+      "elapsed": 0.030110036008409224,
+      "id": 2,
+      "event": "return",
+      "thread_id": 22
+    }
+  ],
+  "version": "1.9",
+  "metadata": {
+    "language": {
+      "name": "python",
+      "engine": "CPython",
+      "version": "3.11.7"
+    },
+    "client": {
+      "name": "appmap",
+      "url": "https://github.com/applandinc/appmap-python"
+    },
+    "git": {
+      "repository": "git@github.com:land-of-apps/python-fastapi-demo.git",
+      "branch": "main",
+      "commit": "2f7e7cf9a990f236888487f39c7ac27d86749903"
+    },
+    "frameworks": [
+      {
+        "name": "FastAPI",
+        "version": "0.104.0"
+      }
+    ],
+    "name": "GET / (200) - 19:59:40.079",
+    "timestamp": 1713571180.079083,
+    "recorder": {
+      "name": "record_requests",
+      "type": "requests"
+    }
+  },
+  "classMap": [
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "GET /"
+        }
+      ]
+    }
+  ]
+}
