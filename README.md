@@ -1,7 +1,8 @@
 # Python/FastAPI Tutorial for Visual Studio Code
 
 ---
-**AppMap Demo** This repo includes a set of AppMaps so you should be able to clone this repo and start asking Navie questions. To generate new AppMaps you will need to follow the instructions below for setting up a dev environment and interacting with the API.
+**AppMap Demo**  
+This repo includes a set of AppMaps so you should be able to clone this repo and start asking Navie questions. To generate new AppMaps you will need to follow the instructions below for setting up a dev environment and interacting with the API.
 ---
 
 This sample contains the completed program from the tutorial: [FastAPI in Visual Studio Code](https://code.visualstudio.com/docs/python/tutorial-fastapi). Immediate steps are not included. 
