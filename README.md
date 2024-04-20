@@ -1,4 +1,9 @@
 # Python/FastAPI Tutorial for Visual Studio Code
+
+---
+**AppMap Demo** This repo includes a set of AppMaps so you should be able to clone this repo and start asking Navie questions. To generate new AppMaps you will need to follow the instructions below for setting up a dev environment and interacting with the API.
+---
+
 This sample contains the completed program from the tutorial: [FastAPI in Visual Studio Code](https://code.visualstudio.com/docs/python/tutorial-fastapi). Immediate steps are not included. 
 
 ## Run the app using GitHub Codespaces
@@ -32,7 +37,8 @@ To run this app locally in VS Code on Windows, you can use either [WSL](https://
 1. Install the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) for VS Code 
 1. Run the "Python: Create Environment" command in the Command Palette
 1. Select `Venv`, the latest available version of Python and then the `requirements.txt` file to install the dependencies.
-1. Press **F5** to run your application!
+1. `uvicorn main:app --reload --port 9000` to run your application!
+1. visit http://127.0.0.1:9000/docs to test the API
 
 ## Contributing
 Contributions to the sample are welcome!  When submitting changes, also consider submitting matching changes to the tutorial, the source file for which is [tutorial-fastapi.md](https://github.com/Microsoft/vscode-docs/blob/master/docs/python/tutorial-fastapi.md).

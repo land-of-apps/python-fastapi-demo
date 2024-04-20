@@ -1,0 +1,86 @@
+{
+  "events": [
+    {
+      "http_server_request": {
+        "request_method": "GET",
+        "protocol": "HTTP/1.1",
+        "path_info": "/docs",
+        "headers": {
+          "host": "127.0.0.1:9000",
+          "connection": "keep-alive",
+          "sec-ch-ua": "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"macOS\"",
+          "upgrade-insecure-requests": "1",
+          "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+          "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+          "sec-fetch-site": "none",
+          "sec-fetch-mode": "navigate",
+          "sec-fetch-user": "?1",
+          "sec-fetch-dest": "document",
+          "accept-encoding": "gzip, deflate, br, zstd",
+          "accept-language": "en-US,en;q=0.9"
+        }
+      },
+      "id": 1,
+      "event": "call",
+      "thread_id": 2
+    },
+    {
+      "http_server_response": {
+        "status_code": 200,
+        "mime_type": "text/html; charset=utf-8",
+        "headers": {
+          "content-length": "931",
+          "content-type": "text/html; charset=utf-8"
+        }
+      },
+      "parent_id": 1,
+      "elapsed": 0.001317312999162823,
+      "id": 2,
+      "event": "return",
+      "thread_id": 2
+    }
+  ],
+  "version": "1.9",
+  "metadata": {
+    "language": {
+      "name": "python",
+      "engine": "CPython",
+      "version": "3.11.7"
+    },
+    "client": {
+      "name": "appmap",
+      "url": "https://github.com/applandinc/appmap-python"
+    },
+    "git": {
+      "repository": "git@github.com:land-of-apps/python-fastapi-demo.git",
+      "branch": "main",
+      "commit": "65b9a0a98894e342ab9fe84ee60e5f9d643ab26a"
+    },
+    "frameworks": [
+      {
+        "name": "FastAPI",
+        "version": "0.104.0"
+      }
+    ],
+    "name": "GET /docs (200) - 21:04:45.110",
+    "timestamp": 1713575085.110283,
+    "recorder": {
+      "name": "record_requests",
+      "type": "requests"
+    }
+  },
+  "classMap": [
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "GET /docs"
+        }
+      ]
+    }
+  ]
+}

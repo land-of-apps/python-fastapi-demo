@@ -1,0 +1,7 @@
+[
+  {
+    "route": "GET /openapi.json",
+    "parameters": "()",
+    "status": 200
+  }
+]
